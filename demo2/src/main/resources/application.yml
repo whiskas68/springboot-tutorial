@@ -10,6 +10,13 @@ spring:
       username: root
       type: com.zaxxer.hikari.HikariDataSource
 
+    oa:
+      password: 123456
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/oa?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      type: com.zaxxer.hikari.HikariDataSource
+
 mybatis:
   config-location: classpath:mybatis-config.xml
   configuration:

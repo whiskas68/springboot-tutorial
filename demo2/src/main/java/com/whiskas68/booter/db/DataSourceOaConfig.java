@@ -17,32 +17,28 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-@MapperScan(basePackages = "com.whiskas68.booter.mapper.shop", sqlSessionTemplateRef = "shopSqlSessionTemplate")
+@MapperScan(basePackages = "com.whiskas68.booter.mapper.oa", sqlSessionTemplateRef = "oaSqlSessionTemplate")
 public class DataSourceOaConfig {
 
-    @Bean(name = "shopDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.shop")
-    @Primary
-    public DataSource shopDataSource(){ return DataSourceBuilder.create().build(); }
+    @Bean(name = "oaDataSource")
+    @ConfigurationProperties(prefix = "spring.datasource.oa")
+    public DataSource oaDataSource(){ return DataSourceBuilder.create().build(); }
 
-    @Bean(name = "shopSqlSessionFactory")
-    @Primary
-    public SqlSessionFactory shopSessionFactory(@Qualifier("shopDataSource") DataSource dataSource) throws Exception{
+    @Bean(name = "oaSqlSessionFactory")
+    public SqlSessionFactory oaSessionFactory(@Qualifier("oaDataSource") DataSource dataSource) throws Exception{
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mapper/shop/*.xml"));
+        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mapper/oa/*.xml"));
         return bean.getObject();
     }
 
-    @Bean(name = "shopTransactionManager")
-    @Primary
-    public DataSourceTransactionManager shopTransactionManager(@Qualifier("shopDataSource") DataSource dataSource){
+    @Bean(name = "oaTransactionManager")
+    public DataSourceTransactionManager oaTransactionManager(@Qualifier("oaDataSource") DataSource dataSource){
         return new DataSourceTransactionManager(dataSource);
     }
 
-    @Bean(name = "shopSqlSessionTemplate")
-    @Primary
-    public SqlSessionTemplate shopSessionTemplate(@Qualifier("shopSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws  Exception{
+    @Bean(name = "oaSqlSessionTemplate")
+    public SqlSessionTemplate oaSessionTemplate(@Qualifier("oaSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws  Exception{
         return new SqlSessionTemplate(sqlSessionFactory);
     }
 
