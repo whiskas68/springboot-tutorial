@@ -3,7 +3,7 @@
 ```java
 public interface InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args)  throws Throwable;
-    }
+}
 ```
 
 2. proxy类，提供一个newProxyInstance方法，用来创建一个代理对象。
