@@ -10,7 +10,8 @@ public interface InvocationHandler {
 ```java
 public static Object newProxyInstance(
 ClassLoader loader,                                      
-Class<?>[] interfaces,                                      InvocationHandler h)
+Class<?>[] interfaces,                                      
+InvocationHandler h)
 ```
 该方法接收三个参数，
 1. loader: 加载定义代理类
