@@ -79,7 +79,7 @@ public class DynamicProxy {
 }
 ```
 输出结果：
-```shell
+```java
 升级前
 Method: public abstract void demo4.Irobot.say(java.lang.String)
 hello world
