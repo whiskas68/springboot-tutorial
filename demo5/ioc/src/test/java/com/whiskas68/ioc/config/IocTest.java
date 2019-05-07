@@ -1,6 +1,8 @@
 package com.whiskas68.ioc.config;
 
 
+import com.whiskas68.ioc.entity.BussinessPerson;
+import com.whiskas68.ioc.entity.Person;
 import com.whiskas68.ioc.entity.User;
 import com.whiskas68.ioc.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -20,8 +22,11 @@ public class IocTest {
                 ApplicationConfig.class
         );
 
-        User user = ctx.getBean(User.class);
-        log.info("bean 创建成功");
-        log.info("bean id为：" + user.getId());
+        //User user = ctx.getBean(User.class);
+        //log.info("bean 创建成功");
+        //log.info("bean id为：" + user.getId());
+
+        Person person = ctx.getBean(BussinessPerson.class);
+        person.service();
     }
 }
