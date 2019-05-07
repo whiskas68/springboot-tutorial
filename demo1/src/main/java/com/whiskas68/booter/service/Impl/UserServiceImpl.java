@@ -22,4 +22,16 @@ public class UserServiceImpl implements UserService {
         return userMapper.selectById(id);
     }
 
+    public void add(User user){
+        userMapper.insert(user);
+    }
+
+    public void edit(User user){
+        userMapper.update(user);
+    }
+
+    public void remove(Long id){
+        userMapper.delete(id);
+    }
+
 }

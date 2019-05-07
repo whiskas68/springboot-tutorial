@@ -1,12 +1,8 @@
 package demo4.Impl;
 
 import demo4.Irobot;
-import demo4.RealRobot;
-import demo4.proxy.DynamicProxy;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 public class RobotDelegate implements InvocationHandler {
 

@@ -28,8 +28,8 @@ public class ApiDoc {
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
                 .title("接口文档")
-                .description("文档地址：127.0.0.1/api/docs")
-                .termsOfServiceUrl("127.0.0.1")
+                .description("文档地址：127.0.0.1:8081/swagger-ui.html")
+                .termsOfServiceUrl("127.0.0.1:8081")
                 .contact(new Contact("whiskas68","127.0.0.1",""))
                 .version("v1.0")
                 .build();
