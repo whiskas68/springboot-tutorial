@@ -1,4 +1,6 @@
 ###### 动态代理：
+动态代理机中有两个重要的接口和类InvocationHandler和proxy类，他们是我们实现动态代理的核心
+
 1. InvocationHandler 接口是proxy代理实例去调用或加强目标对象程序实现的一个接口；当目标对象调用方法时，代理实例将该方法分派到加强的处理程序invoke方法中
 ```java
 public interface InvocationHandler {
