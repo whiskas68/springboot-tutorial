@@ -1,4 +1,5 @@
-##### Ioc容器简介：
+# Ioc容器和依赖注入
+
 Spring Ioc容器，一个管理bean的容器，将相互依赖的对象之间进行解耦
 
 在spring boot中我们主要通过装配bean到容器中。下面通过注解的方式，使用AnnotationConfigApplicationContxt, 来实现一个简单的例子。
@@ -77,7 +78,7 @@ public class IocTest {
 14:28:53.294 [main] INFO com.whiskas68.ioc.config.IocTest - bean id为：1
 ```
 
-###### 通过扫描的方式装配Bean
+## 通过扫描的方式装配Bean
 复用之前的User类，并加入注解@Component
 ```java
 package com.whiskas68.ioc.entity;
@@ -119,7 +120,7 @@ public class ApplicationConfig {
 加入@ComponentScan，扫描所在的包。然后进行测试,这样就可以运行了
 
 
-###### 依赖注入
+## 依赖注入
 > 上文我们了解了如何将bean装配到容器中，但对于如何获取，以及bean之间的依赖处理，这就是“依赖注入”
 
 为了更好的了解“依赖注入”的过程，我们通过一个例子来演示整个过程。
