@@ -29,8 +29,8 @@ public class UserController {
 
     @GetMapping(value = "",produces = "application/json")
     public ResponseCode getUserAll(){
-        logger.info("查询所有用户信息==>");
         List<User> list = new ArrayList<User>(userService.getUsers());
+        logger.info("查询所有用户信息==>" + list);
         return ResponseCode.ok("查询成功",list);
     }
 

@@ -1,0 +1,75 @@
+11:55:53.170 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - Starting BooterApplication on DESKTOP-L7VUJ09 with PID 61668 (E:\project\code\springboot-tutorial\demo1\target\classes started by Xinghan in E:\project\code\springboot-tutorial\demo1)
+11:55:53.172 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - No active profile set, falling back to default profiles: default
+11:55:53.197 shop [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:55:53.199 shop [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:55:53.791 shop [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:55:53.799 shop [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+11:55:54.001 shop [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c12d27b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:55:54.243 shop [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+11:55:54.252 shop [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+11:55:54.257 shop [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:55:54.258 shop [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+11:55:54.334 shop [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:55:54.334 shop [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1135 ms
+11:55:54.424 shop [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:55:54.482 shop [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:55:54.510 shop [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+11:55:54.540 shop [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+11:55:54.541 shop [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:55:54.604 shop [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+11:55:54.668 shop [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:55:54.759 shop [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:55:55.043 shop [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:55:55.123 shop [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:55:55.150 shop [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:55:55.257 shop [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:55:55.266 shop [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:55:55.290 shop [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:55:55.364 shop [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+11:55:55.384 shop [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+11:55:55.387 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - Started BooterApplication in 2.558 seconds (JVM running for 3.958)
+11:57:23.017 shop [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:57:23.018 shop [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:57:23.023 shop [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+11:57:23.120 shop [http-nio-8081-exec-1] INFO  c.w.booter.controller.UserController - 查询所有用户信息==>[User(id=1, username=tycoding, password=123), User(id=2, username=涂陌, password=123), User(id=3, username=jay, password=1111)]
+12:00:09.597 shop [http-nio-8081-exec-5] INFO  c.w.booter.controller.UserController - 查询用户信息，查询用户ID为==> 2
+12:00:11.721 shop [http-nio-8081-exec-6] INFO  c.w.booter.controller.UserController - 查询用户信息，查询用户ID为==> 3
+12:00:16.468 shop [http-nio-8081-exec-4] INFO  c.w.booter.controller.UserController - 查询用户信息，查询用户ID为==> 4
+12:00:19.332 shop [http-nio-8081-exec-8] INFO  c.w.booter.controller.UserController - 查询用户信息，查询用户ID为==> 6
+12:03:35.424 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - Starting BooterApplication on DESKTOP-L7VUJ09 with PID 52424 (E:\project\code\springboot-tutorial\demo1\target\classes started by Xinghan in E:\project\code\springboot-tutorial\demo1)
+12:03:35.426 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - No active profile set, falling back to default profiles: default
+12:03:35.448 shop [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:03:35.448 shop [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:03:36.031 shop [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+12:03:36.057 shop [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+12:03:36.255 shop [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37f48204] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:03:36.532 shop [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+12:03:36.541 shop [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+12:03:36.547 shop [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:03:36.547 shop [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:03:36.642 shop [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:03:36.642 shop [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1194 ms
+12:03:36.738 shop [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:03:36.830 shop [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:03:36.862 shop [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+12:03:36.904 shop [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+12:03:36.905 shop [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+12:03:37.001 shop [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+12:03:37.079 shop [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+12:03:37.199 shop [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:03:37.541 shop [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+12:03:37.622 shop [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:03:37.652 shop [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:03:37.767 shop [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+12:03:37.780 shop [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+12:03:37.797 shop [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+12:03:37.868 shop [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+12:03:37.890 shop [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+12:03:37.892 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - Started BooterApplication in 3.207 seconds (JVM running for 4.812)
+12:03:40.749 shop [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:03:40.749 shop [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:03:40.755 shop [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
