@@ -1,0 +1,28 @@
+14:34:24.014 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - Starting BooterApplication on jaywade.com with PID 3155 (/home/jay/code/springboot-tutorial/demo1/target/classes started by jay in /home/jay/code/springboot-tutorial/demo1)
+14:34:24.021 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - No active profile set, falling back to default profiles: default
+14:34:24.164 shop [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:34:24.164 shop [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:34:27.374 shop [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c9ed6ecc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:34:28.443 shop [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:34:28.471 shop [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:34:28.580 shop [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:34:28.581 shop [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+14:34:28.786 shop [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:34:28.787 shop [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4623 ms
+14:34:29.109 shop [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+14:34:29.568 shop [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:34:31.048 shop [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:34:31.234 shop [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:34:31.380 shop [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:34:32.011 shop [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+14:34:32.040 shop [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:34:32.071 shop [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+14:34:32.282 shop [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:34:32.321 shop [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:34:32.329 shop [restartedMain] INFO  c.whiskas68.booter.BooterApplication - Started BooterApplication in 10.598 seconds (JVM running for 12.083)
+14:37:00.883 shop [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:37:00.884 shop [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:37:00.896 shop [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:37:02.267 shop [http-nio-8081-exec-1] INFO  c.w.booter.controller.UserController - 查询所有用户信息==>[User(id=1, username=tycoding, password=123), User(id=2, username=涂陌, password=123)]
+14:39:19.602 shop [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:39:19.638 shop [Thread-8] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

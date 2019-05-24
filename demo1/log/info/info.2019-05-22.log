@@ -1,0 +1,113 @@
+13:28:16.345 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Starting TestUserMapper on jaywade.com with PID 5692 (started by jay in /home/jay/code/springboot-tutorial/demo1)
+13:28:16.368 shop [main] INFO  c.w.booter.mapper.TestUserMapper - No active profile set, falling back to default profiles: default
+13:28:18.959 shop [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:28:18.977 shop [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+13:28:19.618 shop [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7b87031] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:28:20.010 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:28:20.762 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:28:20.938 shop [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:28:21.073 shop [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+13:28:21.082 shop [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:28:21.320 shop [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:28:21.732 shop [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:28:22.023 shop [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:28:23.407 shop [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+13:28:24.324 shop [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:28:24.785 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+13:28:24.815 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+13:28:24.852 shop [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+13:28:25.060 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Started TestUserMapper in 10.636 seconds (JVM running for 13.632)
+13:28:25.614 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+13:28:25.615 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=2, username=涂陌, password=123)
+13:28:25.630 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+13:28:25.645 shop [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:28:25.652 shop [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:28:25.656 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:28:25.770 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:36:40.343 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Starting TestUserMapper on jaywade.com with PID 5970 (started by jay in /home/jay/code/springboot-tutorial/demo1)
+13:36:40.345 shop [main] INFO  c.w.booter.mapper.TestUserMapper - No active profile set, falling back to default profiles: default
+13:36:42.136 shop [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:36:42.189 shop [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+13:36:42.900 shop [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c18e55e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:36:43.270 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:36:43.843 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:36:43.986 shop [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:36:44.060 shop [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+13:36:44.061 shop [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:36:44.339 shop [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:36:44.597 shop [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:36:44.979 shop [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:36:46.186 shop [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+13:36:46.782 shop [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:36:47.380 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+13:36:47.406 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+13:36:47.438 shop [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+13:36:47.635 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Started TestUserMapper in 8.958 seconds (JVM running for 11.47)
+13:36:47.942 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+13:36:47.943 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=2, username=涂陌, password=123)
+13:36:47.956 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+13:36:47.970 shop [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:36:47.981 shop [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:36:47.994 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:36:48.079 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:43:10.322 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Starting TestUserMapper on jaywade.com with PID 6144 (started by jay in /home/jay/code/springboot-tutorial/demo1)
+13:43:10.330 shop [main] INFO  c.w.booter.mapper.TestUserMapper - No active profile set, falling back to default profiles: default
+13:43:12.492 shop [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:43:12.515 shop [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+13:43:13.275 shop [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65e87a15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:43:13.706 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:43:14.326 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:43:14.614 shop [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:43:14.730 shop [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+13:43:14.731 shop [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:43:15.074 shop [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:43:15.298 shop [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:43:15.665 shop [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:43:16.895 shop [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+13:43:17.578 shop [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:43:18.225 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+13:43:18.258 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+13:43:18.294 shop [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+13:43:18.468 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Started TestUserMapper in 9.962 seconds (JVM running for 12.182)
+13:43:18.804 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+13:43:18.804 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=2, username=涂陌, password=123)
+13:43:18.820 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+13:43:18.833 shop [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:43:18.836 shop [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:43:18.840 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:43:18.919 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:23:06.702 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Starting TestUserMapper on jaywade.com with PID 7672 (started by jay in /home/jay/code/springboot-tutorial/demo1)
+14:23:06.703 shop [main] INFO  c.w.booter.mapper.TestUserMapper - No active profile set, falling back to default profiles: default
+14:23:10.088 shop [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8af97b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:23:11.265 shop [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:23:11.887 shop [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:23:12.394 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+14:23:12.419 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:23:12.454 shop [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+14:23:12.646 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Started TestUserMapper in 7.799 seconds (JVM running for 10.489)
+14:23:13.081 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:23:14.183 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:23:15.206 shop [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:27:00.675 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Starting TestUserMapper on jaywade.com with PID 8337 (started by jay in /home/jay/code/springboot-tutorial/demo1)
+14:27:00.682 shop [main] INFO  c.w.booter.mapper.TestUserMapper - No active profile set, falling back to default profiles: default
+14:27:03.864 shop [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d50d198] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:27:05.035 shop [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:27:05.629 shop [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:27:06.174 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+14:27:06.199 shop [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:27:06.233 shop [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+14:27:06.387 shop [main] INFO  c.w.booter.mapper.TestUserMapper - Started TestUserMapper in 7.296 seconds (JVM running for 9.501)
+14:27:06.756 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:27:07.319 shop [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:27:07.447 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+14:27:07.447 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=2, username=涂陌, password=123)
+14:27:07.506 shop [main] INFO  c.w.booter.mapper.TestUserMapper - user=User(id=1, username=tycoding, password=123)
+14:27:07.552 shop [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:27:07.556 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:27:07.637 shop [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
