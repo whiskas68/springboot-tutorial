@@ -47,5 +47,5 @@ SpringBoot具有以下特性：
 环境配置
 * 创建application.yml，配置服务器端口，数据库用户名和密码等信息
 * 创建数据库shop, 导入sql语句config/db/sys_schema.sql和config/db/sys_data.sql
-* 配置完成后，运行BooterApplication.java，访问http://127.0.0.1:8081/users进行API测试
+* 配置完成后，跳转到项目根目录，执行“mvn spring-boot:run”，访问http://127.0.0.1:8081/users进行API测试
 
